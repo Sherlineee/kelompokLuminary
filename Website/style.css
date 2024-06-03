@@ -299,21 +299,15 @@ ul{
   color: #908d8d;
   padding-left: 8px;
 }
-.footer-col .social-links i img{
+.footer-col .social-links a img{
   display: inline-block;
   height: 35px;
   width: 35px;
   background-color: rgba(255,255,255,0.2);
   margin:0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 80%;
-  color: #ffffff;
+  border-radius: 10%;
+  color: #a3a9b0;
   transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-  color: #24262b;
-  background-color: #ffffff;
 }
 
 /*responsive*/
@@ -712,7 +706,7 @@ ul{
 }
 
 .login-container h2 {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .login-container label {
@@ -752,18 +746,18 @@ ul{
 
 
 /* UTK CONTACT US */
-.Contactus{
+.Contactus li{
     list-style: none;
     font-size: 34px;
     font-weight: 800;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 .Isi{
   display: block;
-  padding: 60px 90px;
+  padding: 60px 180px;
 }
-.Isi img{
+.Isi a img{
   height: 50px;
   width: 50px;
   justify-content: space-between;
@@ -772,5 +766,5 @@ ul{
 .Isi ul{
   font-size: 25px;
   font-weight: 500;
-  padding: 0rem 10rem;
+  padding: 0rem 8rem;
 }
