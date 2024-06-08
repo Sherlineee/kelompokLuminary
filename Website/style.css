@@ -438,6 +438,9 @@ ul{
     padding: 6rem 5rem;
     justify-content: space-between;
   }
+  .shop{
+    padding-top: 80px;
+  }
   .shop li{
     list-style: none;
     font-size: 34px;
